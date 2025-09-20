@@ -109,7 +109,7 @@ export default defineConfig((config) => {
         },
         protocolImports: true,
         // Exclude Node.js modules that shouldn't be polyfilled in Cloudflare
-        exclude: ['child_process', 'fs', 'path', 'convex'],
+        exclude: ['child_process', 'fs', 'path'],
       }),
       // Required to run the file write tool locally
       {
